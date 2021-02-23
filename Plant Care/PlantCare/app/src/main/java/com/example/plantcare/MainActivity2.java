@@ -3,13 +3,10 @@ package com.example.plantcare;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import android.app.Activity;
-import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.os.Handler;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.GestureDetector;
@@ -17,7 +14,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -36,7 +32,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         ConstraintLayout homePage = findViewById(R.id.laytout_homePage);
         onSwipeTouchListener = new OnSwipeTouchListener(this, homePage);
-        animationCloudRain = findViewById(R.id.animationCloudRain);
+        animationCloudRain = findViewById(R.id.animation_menu_plant_wave);
     }
 
     public static class OnSwipeTouchListener implements View.OnTouchListener {
@@ -138,6 +134,8 @@ public class MainActivity2 extends AppCompatActivity {
         btn_list.setAnimation(fadeAnimBtn3);
         animationPlant = findViewById(R.id.animationPlant);
         animationPlant.playAnimation();
+
+//        camera button
         btn_camera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -145,6 +143,8 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivityForResult(intentCamera,44);
             }
         });
+
+//        search button
         btn_search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -152,6 +152,16 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intentSearch);
             }
         });
+
+//        list all button
+        btn_list.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent( getApplicationContext() , AllActions.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     @Override

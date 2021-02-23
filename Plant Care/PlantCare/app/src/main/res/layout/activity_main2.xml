@@ -22,7 +22,7 @@
 
 
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animationCloudRain"
+        android:id="@+id/animation_menu_plant_wave"
         android:layout_width="150dp"
         android:layout_height="126dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -106,6 +106,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_description"
         app:rippleColor="#FFFFFF"
-        app:srcCompat="@android:drawable/ic_search_category_default" />
+        app:srcCompat="@android:drawable/ic_menu_add" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
