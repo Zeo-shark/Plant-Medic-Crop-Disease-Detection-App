@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ResPage">
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="102dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/avPlantWave"
+        android:layout_width="195dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_treatment"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/plant_wave_a" />
+
+    <TextView
+        android:id="@+id/tv_nameOfDis"
+        android:layout_width="224dp"
+        android:layout_height="79dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="name of the whaterver"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toEndOf="@+id/iv_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <TextView
+        android:id="@+id/tv_symptoms"
+        android:layout_width="390dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="sans-serif"
+        android:text="Symptoms :"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_image" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="390dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="268dp"
+        android:fontFamily="sans-serif"
+        android:text="Description :"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_symptoms"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <Button
+        android:id="@+id/btn_treatment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="treatment"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_description"
+        app:layout_constraintVertical_bias="0.248" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
