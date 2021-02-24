@@ -157,7 +157,7 @@ public class MainActivity2 extends AppCompatActivity {
         btn_list.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent( getApplicationContext() , AllActions.class);
+                Intent intent = new Intent( getApplicationContext() , AllActions2.class);
                 startActivity(intent);
             }
         });
