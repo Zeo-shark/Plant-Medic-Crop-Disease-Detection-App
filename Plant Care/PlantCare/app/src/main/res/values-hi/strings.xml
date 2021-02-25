@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">पौधे की देखभाल</string>
+    <string name="title">पौधे की देखभाल</string>
+    <string name="language_name">हिन्दी</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_odia">ଓଡିଆ</string>
+    <string name="app_description">"पौधे की देखभाल में आपका स्वागत है। आप विभिन्न पौधों की बीमारियों के बारे में जान सकते हैं। बीमारी की पहचान करने के लिए आप पौधे की तस्वीर ले सकते हैं"</string>
+</resources>

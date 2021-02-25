@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">PlantCare</string>
+    <string name="title">Plant Care</string>
+    <string name="language_name">English</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_odia">ଓଡିଆ</string>
+    <string name="app_description">"welcome to plant care.
+        You can find about different plant diseases.you can take picture of the plant for us to identify the disease"</string>
+
 </resources>

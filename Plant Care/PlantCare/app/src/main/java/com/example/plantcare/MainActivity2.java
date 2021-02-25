@@ -120,7 +120,7 @@ public class MainActivity2 extends AppCompatActivity {
         FloatingActionButton btn_camera = findViewById(R.id.btn_camera);
         FloatingActionButton btn_search = findViewById(R.id.btn_search);
         FloatingActionButton btn_list = findViewById(R.id.btn_list);
-        description.setText("welcome to plant care.\n You can find about different plant diseases. you can take picture of the plant for us to identify the disease ");
+        description.setText(R.string.app_description);
         title.setAnimation(fade_anim);
         description.setAnimation(fade_anim);
         Animation fadeAnimBtn1 = AnimationUtils.loadAnimation(this,R.anim.fade_btn1);

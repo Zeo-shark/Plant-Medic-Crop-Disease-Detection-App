@@ -41,7 +41,7 @@
         android:layout_marginTop="68dp"
         android:fontFamily="sans-serif-medium"
         android:shadowColor="#00FF0A"
-        android:text="PLANT CARE"
+        android:text="@string/title"
         android:textAlignment="center"
         android:textColor="#368C21"
         android:textColorHint="#EC9999"

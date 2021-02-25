@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PlantCare">
-        <activity android:name=".AllActions2"></activity>
+        <activity android:name=".CropChoose"></activity>
+        <activity android:name=".LanguageSelection" />
+        <activity android:name=".AllActions2" />
         <activity android:name=".AllActions" />
         <activity android:name=".AboutPage" />
         <activity android:name=".SearchPage" />

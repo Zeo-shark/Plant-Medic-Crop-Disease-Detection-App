@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ଉଦ୍ଭିଦ ଯତ୍ନ</string>
+    <string name="title">ଉଦ୍ଭିଦ ଯତ୍ନ</string>
+    <string name="language_name">ଓଡିଆ</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_odia">ଓଡିଆ</string>
+    <string name="app_description">"ଉଦ୍ଭିଦ ଯତ୍ନ ପାଇଁ ସ୍ୱାଗତ|ଆପଣ ବିଭିନ୍ନ ଉଦ୍ଭିଦ ରୋଗ ବିଷୟରେ ପାଇପାରିବେ | ଏହି ରୋଗକୁ ଚିହ୍ନିବା ପାଇଁ ତୁମେ ଆମ ପାଇଁ ଉଦ୍ଭିଦର ଚିତ୍ର ଉଠାଇ ପାରିବ |"</string>
+</resources>

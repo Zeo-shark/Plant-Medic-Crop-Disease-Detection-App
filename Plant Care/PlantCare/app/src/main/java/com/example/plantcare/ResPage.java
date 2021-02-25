@@ -21,7 +21,7 @@ public class ResPage extends AppCompatActivity {
         Bitmap imageBitmap ;
         String symptoms = "Nothig available";
         String about = "Nothing available";
-        imageBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.facebook_icon);
+        imageBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.apple_png);
         if(extras.containsKey("data")){
             imageBitmap = (Bitmap) extras.get("data");
         }

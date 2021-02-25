@@ -2,7 +2,9 @@ package com.example.plantcare;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
@@ -46,5 +48,13 @@ public class AllActions2 extends AppCompatActivity {
         btnf1.setAnimation(animeBtn1);
         btnf2.setAnimation(animFade);
         btnf3.setAnimation(animeBtn3);
+
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext() , CropChoose.class);
+                startActivity(intent);
+            }
+        });
     }
 }
