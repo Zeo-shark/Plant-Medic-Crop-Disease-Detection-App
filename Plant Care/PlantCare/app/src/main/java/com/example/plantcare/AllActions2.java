@@ -49,10 +49,29 @@ public class AllActions2 extends AppCompatActivity {
         btnf2.setAnimation(animFade);
         btnf3.setAnimation(animeBtn3);
 
+//        select crops
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext() , CropChoose.class);
+                startActivity(intent);
+            }
+        });
+
+//        login / signup
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), login_page.class);
+                startActivity(intent);
+            }
+        });
+
+//        language selection
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),LanguageSelection.class);
                 startActivity(intent);
             }
         });

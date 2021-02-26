@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="86dp"
             android:alpha="1"
-            android:text="Button"
+            android:text="select crops"
             android:textColor="#000000"
             android:theme="@style/Theme.Design.Light"
             app:cornerRadius="50dp" />
@@ -48,7 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="86dp"
             android:alpha="0.9"
-            android:text="Button"
+            android:text="login"
             android:textColor="#000000"
             android:theme="@style/Theme.Design.Light"
             app:cornerRadius="50dp" />
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="86dp"
             android:alpha="0.8"
-            android:text="Button"
+            android:text="Change Language"
             android:textColor="#000000"
             android:theme="@style/Theme.Design.Light"
             app:cornerRadius="50dp" />
