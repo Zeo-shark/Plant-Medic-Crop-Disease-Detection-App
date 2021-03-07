@@ -1,4 +1,4 @@
-# Agricole App
+# PlantMedic App
 
 This is the project developed for trithon-2021 for the Problem Statement below.  
 **PS Title:** Identification of crops, weeds, diseases and pest damage and nutrient deficiency symptoms Development of an app for identification of crops, weeds, diseases and pest damage and nutrient deficiency symptoms.   
