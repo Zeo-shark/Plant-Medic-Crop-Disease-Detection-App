@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for(endpoint='static', filename='project_styles.css')}}">
+    <meta charset="UTF-8">
+    <title>Upload Image</title>
+    <style>
+    	@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+      .title{
+      	margin-top: 20px;
+      	margin-bottom: 30px;
+      	font-size: 40px;
+      	font-weight: 600;
+        font-family: "Fredoka One", cursive;
+        color:#ca6767;
+      }
+      .upload-button{
+      	cursor: pointer;
+        width: 300px;
+        height: 80px;
+        background-color: #17cc78;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 30px
+      }
+      .upload-text{
+      	font-size: 30px;
+        font-weight: 500;
+        color: white;
+        font-family: "Fredoka One", cursive;
+      }
+    </style>
+</head>
+<body>
+<form enctype="multipart/form-data" method="post" action="http://localhost:7777/upload/">
+    <center>
+    <div class="title">Select Image for Online Crop and Crop Disease Detection.</div>
+
+
+   <div id="image">
+
+   </div>
+
+
+    <div class="upload-button" id="select-button-id">
+    	<input type="file" name="image_file" accept="image/*" hidden="true" id="input-id">
+    	<div class="upload-text">
+    		Select Image
+    	</div>
+    </div>
+    <div class="upload-button" id="upload-button-id">
+    	<div>
+    		 <img
+              src="https://img.icons8.com/officel/80/000000/upload.png"
+              alt="upload"
+              width="50px"
+            />
+    	</div>
+    	<input type="submit" value="Upload" hidden id="upload-id">
+    	<div class="upload-text">
+    		Upload
+    	</div>
+    </div>
+    </center>
+</form>
+</body>
+</html>
+
+<script type="text/javascript">
+	document.getElementById("select-button-id").addEventListener("click",()=>{
+         document.getElementById("input-id").click();
+
+
+ 	})
+	document.getElementById("upload-button-id").addEventListener("click",()=>{
+         document.getElementById("upload-id").click();
+	})
+
+</script>

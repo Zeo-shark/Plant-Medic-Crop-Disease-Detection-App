@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for(endpoint='static', filename='project_styles.css')}}">
+    <script type="text/javascript" src="{{url_for(endpoint='static', filename='result.js')}}"></script>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <style>
+    	@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+    	h1{
+    		margin-top: 20px;
+      	margin-bottom: 30px;
+      	font-size: 40px;
+      	font-weight: 600;
+        font-family: "Fredoka One", cursive;
+        color:#ca6767;
+    	}
+    	.return{
+    		width: 200px;
+    		height:80px;
+    		background-color: #17cc78;
+    		border-radius: 10px;
+    		display:flex;
+    		justify-content: center;
+    		align-items: center;
+       		font-size:20px;
+       		font-weight: 600
+
+    	}
+    </style>
+</head>
+<body onload="show_alert('{{predicted_class}}')">
+<center><h1>Crop Detected : <span>{{predicted_crop}}</span></h1>
+    <center><h1>Crop Disease Detected : <span>{{predicted_disease}}</span></h1>
+    <br>
+    <a href="{{url_for(endpoint='homepage')}}" style="text-decoration: none;color: white"><div class="return">Return to homepage</div></a>
+</center>
+</body>
+</html>
+
+

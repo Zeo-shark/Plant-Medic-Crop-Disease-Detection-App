@@ -1,0 +1,21 @@
+{
+  "name": "cropdiseasedetection",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Anshuman Mohapatra",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client && yarn run build",
+    "install-client": "cd client && yarn install",
+    "heroku-postbuild": "yarn run install-client && yarn run build",
+    "start": "nodemon server.js",
+    "client": "cd client && yarn start",
+    "dev": "concurrently -n 'server,client' -c 'red,green'  \"nodemon server.js\" \"yarn run client\""
+  },
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "express": "^4.17.1"
+  }
+}
