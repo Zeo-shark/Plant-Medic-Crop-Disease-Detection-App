@@ -6,19 +6,19 @@ This is the project developed for trithon-2021 for the Problem Statement below.
 
 ## Screen-Shots of Mobile App :   
 1. **UI for choosing language :**   
-![https://github.com/Zeo-shark/plantmedic-App/blob/main/photo_2021-03-02_23-30-38.jpg](./photo_2021-03-02_23-30-38.jpg)
+![https://github.com/Zeo-shark/plantmedic-App/blob/main/photo_2021-03-02_23-30-38.jpg](./assets/photo_2021-03-02_23-30-38.jpg)
 
 2. **add Homepage :**  
-![https://github.com/Zeo-shark/plantmedic-App/blob/main/photo_2021-03-02_23-30-34.jpg](./photo_2021-03-02_23-30-34.jpg)
+![https://github.com/Zeo-shark/plantmedic-App/blob/main/photo_2021-03-02_23-30-34.jpg](./assets/photo_2021-03-02_23-30-34.jpg)
 
 3. **Machine Learning Classification Models Menu :**  
-![https://github.com/Zeo-shark/plantmedic-App/blob/main/photo_2021-03-02_23-30-29.jpg](./photo_2021-03-02_23-30-29.jpg)
+![https://github.com/Zeo-shark/plantmedic-App/blob/main/photo_2021-03-02_23-30-29.jpg](./assets/photo_2021-03-02_23-30-29.jpg)
 
 4. **Crops and disease detection :**   
-![https://github.com/Zeo-shark/plantmedic-App/blob/main/82a7c8ff-269f-491c-a2c5-ddc866482cc4.jfif](./82a7c8ff-269f-491c-a2c5-ddc866482cc4.jfif)
+![https://github.com/Zeo-shark/plantmedic-App/blob/main/82a7c8ff-269f-491c-a2c5-ddc866482cc4.jfif](./assets/82a7c8ff-269f-491c-a2c5-ddc866482cc4.jfif)
 
 5. **Crops Selection and Crop disease Encyclopedia feature :**
-![https://github.com/Zeo-shark/plantmedic-App/blob/main/677acfd0-bccd-48f2-925b-c0786e96fad2.jfif](./677acfd0-bccd-48f2-925b-c0786e96fad2.jfif)
+![https://github.com/Zeo-shark/plantmedic-App/blob/main/677acfd0-bccd-48f2-925b-c0786e96fad2.jfif](./assets/677acfd0-bccd-48f2-925b-c0786e96fad2.jfif)
 
 ## Team Members:
 1. Sunanda Samantaray(Lead)
